@@ -1,0 +1,13 @@
+JARVIS STARTER PHONE BUILD
+
+This is a starter Android project, not a finished APK. It uses GitHub Actions to build the APK in the cloud.
+
+1. Create a GitHub repository named Jarvis Assistant.
+2. Upload the project files and folders from this ZIP into the repository root. Make sure .github/workflows/build.yml is uploaded (the .github folder may be hidden in phone file pickers).
+3. Open the repository's Actions tab.
+4. Select Build Jarvis APK and choose Run workflow.
+5. When the run finishes, download the Jarvis-debug-apk artifact and extract it to get app-debug.apk.
+6. Install APK on your Android phone. Android may ask permission to install from this source.
+
+Starter features: microphone button speech recognition in Hindi and launching WhatsApp, YouTube Music, or Instagram by spoken command.
+Not included yet: always-on wake word, background listening, WhatsApp messaging/calling automation, or advanced phone control. Gallery/photos permission is not requested.
